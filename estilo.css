@@ -11,7 +11,7 @@ html{
 }
 /* MENU */
 .contenedor-header{
-    background: #c22e5f;
+    background: rgb(230, 201, 207);
     position: fixed;
     width: 100%;
     top: 0;
@@ -29,7 +29,7 @@ html{
 .contenedor-header header .logo a{
     font-family: 'Righteous';
     font-size: 36px;
-    color: #1CB698;
+    color: black;
     text-decoration: none;
 }
 .contenedor-header header ul{
@@ -38,18 +38,18 @@ html{
 }
 .contenedor-header header nav ul li a{
     text-align: none;
-    color: #fff;
+    color:black;
     margin: 0 15px;
     padding: 3px;
     transition: .5s;
     text-decoration: none;
 }
 .contenedor-header header nav ul li a:hover{
-    color: #1CB698;
+    color: black;
 }
 .nav-responsive{
-    background-color: #1CB698;
-    color: #1CB698;
+    background-color:black;
+    color: black;
     padding: 5px 10px;
     border-radius: 5px;
     cursor: pointer;
@@ -67,7 +67,7 @@ html{
 }
 .inicio .contenido-banner{
     padding: 20px;
-    background-color: #080808;
+   
     max-width: 350px;
     margin: auto;
     text-align: center;
@@ -75,7 +75,7 @@ html{
 }
 .inicio .contenido-banner img{
     margin-top: 40px;
-    border: 10px solid #c22e5f;
+    border: 10px solid rgb(230, 201, 207);
     display: block;
     width: 80%;
     margin: auto;
@@ -85,17 +85,18 @@ html{
     margin-top: 40px;
     font-size: 42px;
     font-family: 'Righteous';
-    color:  #1CB698;
+    color:  black;
 }
 .inicio .contenido-banner h2{
     font-size: 15px;
     font-weight: normal;
+    color: black;
 }
 .inicio .contenido-banner .redes a{
-    color:  #1CB698;
+    color: black;
     display: inline-block;
     text-decoration: none;
-    border: 1px solid  #1CB698;
+    border: 1px solid black;
     border-radius: 100%;
     width: 42px;
     height: 42px;
@@ -105,11 +106,11 @@ html{
     transition: .3s;
 }
 .inicio .contenido-banner .redes a:hover{
-    background-color: #1CB698;
+    background-color:black;
 }
 .sobremi{
-    background-color:  #1CB698;
-    color: #fff;
+    background-color:rgb(230, 201, 207);
+    color:black;
     padding: 50px 20px;
 }
 .sobremi .contenido-seccion{
@@ -129,7 +130,7 @@ html{
     margin-bottom: 20px;
 }
 .sobremi .contenido-seccion p span{
-    color: #1CB698;
+    color: black;
     font-weight: bold;
 }
 .sobremi .fila{
@@ -152,11 +153,11 @@ html{
 }
 .sobremi .fila .col ul li strong{
     display: inline-block;
-    color: #1CB698;
+    color: black;
     width: 130px;
 }
 .sobremi .fila .col ul li span{
-    background-color: #1CB698;
+    background-color:rgb(230, 201, 207);
     padding: 3px;
     font-weight: bold;
     border-radius: 5px;
@@ -168,7 +169,7 @@ html{
 .sobremi .fila .col .contenedor-intereses .interes{
     width: 100px;
     height: 100px;
-    background-color: #252A2E;
+    background-color: floralwhite;
     border-radius: 10px;
     margin: 0 15px 15px 0;
     display: flex;
@@ -177,7 +178,7 @@ html{
     justify-content: center;
     transition: .3s;
 }.sobremi .fila .col .contenedor-intereses .interes:hover{
-    background-color: #1CB698;
+    background-color:rgb(230, 201, 207);
 }
 .sobremi .fila .col .contenedor-intereses .interes i{
     font-size: 30px;
@@ -186,13 +187,13 @@ html{
 .sobremi button{
     cursor: pointer;
     background-color: transparent;
-    border: 2px solid #fff;
+    border: 2px solid black
     width: fit-content;
     display: block;
     margin: 20px auto;
     padding: 10px 22px;
     font-size: 16px;
-    color: #fff;
+    color: black;
     position: relative;
     z-index: 10;
 }
@@ -211,8 +212,8 @@ html{
 }
 /* SECCION S K I L L S */
 .skills{
-    background-color: #252A2E;
-    color: #fff;
+    background-color: rgb(230, 201, 207);
+    color:black;
     padding: 50px 20px;
 }
 .skills .contenido-seccion{
@@ -246,12 +247,12 @@ html{
 .skills .skill .barra-skill{
     height: 8px;
     width: 80%;
-    background-color: #131517;
+    background-color: #fff;
     position: relative;
     margin-bottom: 30px;
 }
 .skills .skill .progreso{
-    background-color: #1CB698;
+    background-color: ;
     position: absolute;
     top: 0;
     left: 0;
@@ -261,7 +262,7 @@ html{
     position: absolute;
     height: 40px;
     width: 40px;
-    background-color: #1CB698;
+    background-color: black
     border-radius: 50px;
     line-height: 40px;
     text-align: center;
@@ -406,18 +407,19 @@ html{
     margin-bottom: 10px;
 }
 .curriculum .fila .item .casa{
-    color: #1CB698;
+    color: #c22e5f;
     font-size: 22px;
     font-weight: bold;
     display: block;
 }
 .curriculum .fila .item .fecha{
     display: block;
-    color: #1CB698;
+    color: #c22e5f;
     margin-bottom: 10px;
 }
 .curriculum .fila .item p{
     line-height: 24px;
+    color: #c22e5f;
 }
 .curriculum .fila .izq{
     border-right: 2px solid #1CB698;
@@ -448,7 +450,7 @@ html{
 }
 .curriculum .fila .item .conectord{
     height: 2px;
-    background-color: #1CB698;
+    background-color: #b61ca9;
     width: 47px;
     position: absolute;
     top: 50%;
